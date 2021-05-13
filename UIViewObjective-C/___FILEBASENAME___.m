@@ -15,26 +15,6 @@
     return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:NO];
-
-}
-
-- (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    
-}
-
-- (void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    
-}
-
-- (void)viewDidDisappear:(BOOL)animated{
-    [super viewDidDisappear:animated];
-    
-}
 /**
  回收通知、强引用
  */
